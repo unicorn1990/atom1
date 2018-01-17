@@ -9,8 +9,6 @@
 3. 定义Task http://blog.csdn.net/singwhatiwanna/article/details/78898113
 
 
-
-
 ##### Gradle脚本的执行时序:
 1. 初始化：分析哪些module将被构建，为每个module创建对应的Project实例。根目录的settings.gradle文件将被解析
 2. 配置：处理所有模块的build脚本，处理依赖，属性等。这时候每个模块的build.gradle将被解析并配置，这个时候会配置整个task的链表
